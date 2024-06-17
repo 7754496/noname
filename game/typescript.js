@@ -172280,3 +172280,6 @@ ${e.message}`;
 if (typeof module !== "undefined" && module.exports) {
   module.exports = ts;
 }
+if (typeof globalThis !== "undefined") {
+  globalThis.ts = ts;
+}
